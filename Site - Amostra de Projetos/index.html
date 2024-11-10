@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projetos do Grupo C - grupo do Arduino</title>
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet"
+    />
+</head>
+<body>
+
+    <h1>Nossos Projetos</h1>
+
+    <main>
+
+        <nav class="listagem">
+            <ul>
+                <li class="foto ativa" id="carrinho01" role="button" tabindex="0">
+                    <img src="./src/imagens/Carrinho 01.jpg" alt="Imagem do carrinho 01" />
+                    <span>Carrinho 01</span>
+                </li>
+                <li class="foto" id="carrinho02" role="button" tabindex="0">
+                    <img src="./src/imagens/Carrinho 02.jpg" alt="Imagem do carrinho 02" />
+                    <span>Carrinho 02</span>
+                </li>
+                <li class="foto" id="carrinhoBaixo" role="button" tabindex="0">
+                    <img src="./src/imagens/Carrinho em baixo.jpg" alt="Imagem do carrinho em baixo" />
+                    <span>Carrinho em Baixo</span>
+                </li>
+                <li class="foto" id="protoboard" role="button" tabindex="0">
+                    <img src="./src/imagens/Protoboard relogio.jpg" alt="Imagem da protoboard do relógio" />
+                    <span>Protoboard do Relógio</span>
+                </li>
+            </ul>
+        </nav>
+
+        <section class="projetos">
+            <div class="cartoes-dos-projetos">
+                <div class="cartao-projetos carrinho aberto" id="cartao-carrinho01">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Carrinho 01</h2>
+                        </div>
+                        <div class="cartao-imagem">
+                            <img src="./src/imagens/Carrinho 01.jpg" alt="Carrinho 01" />
+                        </div>
+                    </div>
+                    <div class="cartao-informacoes">
+                        <div class="descricao">
+                            <h3>Descrição</h3>
+                            <p>Vista dinâmica do projeto.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-projetos carrinho" id="cartao-carrinho02">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Carrinho 02</h2>
+                        </div>
+                        <div class="cartao-imagem">
+                            <img src="./src/imagens/Carrinho 02.jpg" alt="Carrinho 02" />
+                        </div>
+                    </div>
+                    <div class="cartao-informacoes">
+                        <div class="descricao">
+                            <h3>Descrição</h3>
+                            <p>Vista do Carrinho, exibindo a placa principal (Arduino) e a ponte H.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-projetos carrinho" id="cartao-carrinhoBaixo">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Parte de Baixo do Carrinho</h2>
+                        </div>
+                        <div class="cartao-imagem">
+                            <img src="./src/imagens/Carrinho em baixo.jpg" alt="Carrinho em baixo" />
+                        </div>
+                    </div>
+                    <div class="cartao-informacoes">
+                        <div class="descricao">
+                            <h3>Descrição</h3>
+                            <p>Aqui podemos ver a parte de baixo do carrinho e o módulo que faz a comunicação com o controle.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-projetos relogio" id="cartao-protoboard">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Projeto do Relógio</h2>
+                        </div>
+                        <div class="cartao-imagem">
+                            <img src="./src/imagens/Protoboard relogio.jpg" alt="Protoboard do relógio" />
+                        </div>
+                    </div>
+                    <div class="cartao-informacoes">
+                        <div class="descricao">
+                            <h3>Descrição</h3>
+                            <p>Aqui temos a protoboard com o nosso projeto do relógio, com o ESP32 ligado ao display e aos botões, que já apresentam suas funções.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="./src/js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+@media(max-width: 750px){
+    .projetos{
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 0;
+    }
+
+    .cartao-projetos{
+        max-width: 300px;
+    }
+
+    .cartao-projetos .cartao-informacoes{
+        padding: 60px 30px 30px;
+        margin-top: -50px;
+    }
+
+    .cartao-projetos .cartao-informacoes h3{
+        font-size: 16px;
+    }
+
+    .listagem{
+        max-width: 360px;
+    }
+
+    .listagem .foto{
+        width: 45%;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        margin-bottom: 0;
+        border-radius: 8px;
+    }
+
+    .listagem ul{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+}
